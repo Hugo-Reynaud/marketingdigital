@@ -1,0 +1,93 @@
+/*-------------------------------------
+            COMMUN A TOUTES LES PAGES
+--------------------------------------*/
+
+/* le fond du site */
+body {
+    /* suppression de la marge naturelle des navigateurs */
+    margin: 0;
+    /* image de fond du site*/
+    background: url('../img/palmier.jpg');
+    background-size: cover; /* prendre toute la lartgeur de la page pour l'img de fond*/
+}
+
+/* toutes les images du site */
+img {
+    width: 100%; /*image doit prendre 100% de la largeur dont elle dispose*/
+}
+
+/* h1, h2, h3, h4...... ==> titres de paragraphes */
+h1 {
+    margin: 0; /* supprimer les marges en haut et en bas  */
+}
+
+/* tous les liens (boutons) */
+a {
+    text-decoration: none;/* suppression du soulignage*/
+    color: black; /* couleur noire */
+}
+
+/* p = paragraphes */
+p {
+    text-align: justify; /* les textes sont justifiés */
+    font-size: 24px; /* taille du texte à 24px de hauteur */
+}
+.centrer {
+    text-align: center; /* centrer horizontalement le texte */
+}
+
+.titre-page {
+    text-align: center; /* centrer horitalement le texte */
+    color: white; /* mettre le texte en blanc */
+    font-style: italic; /* mettre en italique le texte */
+    margin-top: 20px; /* mettre une marge de 20 pixels au dessus de mon titre */
+    margin-bottom: 20px; /* mettre une marge de 20 pixels en dessous de mon titre */
+}
+.contenu-page {
+    width: 90%; /* occuper 90% de la largeur de la page*/
+    margin: auto; /* */
+}
+.bouton-retour {
+    background : black;
+    color: white;
+    padding: 5px; /* marge interieure */
+}
+
+
+/*-------------------------------------
+            PAGE ACCUEIL
+--------------------------------------*/
+.accueil .bienvenue {
+    background: white; /* couleur de fond blanc */
+    border-radius: 5px; /* arrondir les angles */
+    padding: 15px; /* marge à l'interieur */
+}
+/* menu */
+.accueil .menu {
+    margin-top: 30px; /* marge au dessus de 30 pixels */
+}
+
+.accueil .menu a {
+    float: left; /* coller les liens les uns aux autres */
+    width: 20%; /* chaque lien prend 20% de la largeur dont il dispose*/
+    margin-right: 15px; /* une marge exterieure à droite de chaque lien d'une longueuyr de 15px*/
+    background: white; /* couleur de fond de chaque lien : white => blanc*/
+    padding: 10px; /* mettre une marge à l'interieur de chaque lien (10px) */
+}
+
+
+
+
+/*-------------------------------------
+            PAGES DES SPORTS (ESCALADE, CANYONING,.....)
+--------------------------------------*/
+.sport table {
+    background: rgba(255, 255, 255, .5); /* fond blanc avec une opacité à 0.5 */
+    margin-top: 30px; /* mettre une marge exterieure de 30px au dessus de chaque tableau  */
+}
+.sport table .article {
+    width: 60%; /* la colonne de texte occupe 60% du tableau */
+}
+.sport table .photo {
+    width: 40%; /* la colonne image occupe 40% du tableau */
+}
