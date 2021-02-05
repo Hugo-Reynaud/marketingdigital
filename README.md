@@ -1,4 +1,4 @@
 # marketingdigital
 
-Auteur : Hugo Reynaud
-E-mail : hugo.reynaud@kedgebs.com
+Auteur : Hugo Reynaud ;
+E-mail : hugo.reynaud@kedgebs.com ;
